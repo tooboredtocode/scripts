@@ -28,7 +28,7 @@ then
     TOKEN="webhook-token-here"
 
     DATA="{
-    \"content\": \"<@your-id-here> a user has logged in via ssh!\",
+    \"content\": \"<@your-id-here> user $PAM_USER has logged in via ssh!\",
     \"embeds\": [
         {
         \"title\": \"Login Event\",
